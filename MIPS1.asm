@@ -7,6 +7,9 @@
   idnumbe: .word 8
   idnumber: .word 3
   idrebmun: .word 1
+  nam: .byte 'G'
+  name: .byte 'e'
+  names: .byte 'n'
 .text
   main: 
     li $v0, 11 #This tells the computer that I want to print a character 
@@ -36,7 +39,16 @@
     li $v0, 1
     lw $a0, idrebmun
     syscall 
-    
+ 
+    li $v0, 4
+    la $a0, nam
+    syscall
+    li $v0, 4
+    la $a0, name
+    syscall
+    li $v0, 4
+    la $a0, names
+    syscall
 
 
 
