@@ -94,5 +94,5 @@ li $v0, 11
 addi $a0, $a0, 10 #115 s
 syscall
 
-li $v0, 10
+li $v0, 10 #Tells the computer that the program is done 
 syscall 
