@@ -26,3 +26,9 @@ addi $a0, $a0, 5 #8
 syscall
 li $v0, 1
 sub $a0, $a0, 5 #3
+syscall
+li $v0, 1
+sub $a0, $a0, 2 #1
+syscall
+
+#New line for name 
