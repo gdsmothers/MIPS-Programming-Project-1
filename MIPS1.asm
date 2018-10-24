@@ -54,3 +54,9 @@ sub $a0, $a0, 12 #104 h
 syscall
 li $v0, 11
 sub $a0, $a0, 3 #101 e
+syscall
+li $v0, 11
+addi $a0, $a0, 13 #114 r
+syscall
+li $v0, 11
+addi $a0, $a0, 1 #115 s
