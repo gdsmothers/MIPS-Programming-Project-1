@@ -11,3 +11,8 @@ sub $a0, $a0, 64 #0
 syscall 
 li $v0, 1
 addi $a0, $a0, 2 #2 
+syscall
+li $v0, 1
+addi $a0, $a0, 6 #8 
+syscall
+li $v0, 1
