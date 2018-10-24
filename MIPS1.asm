@@ -32,3 +32,9 @@ sub $a0, $a0, 2 #1
 syscall
 
 #New line for name 
+addi $v0, $v0, 10 #I added 10 to tell the computer I wanted the result of a character 
+addi  $a0, $a0, 9 #10 LF
+syscall 
+
+#Last Name
+li $v0, 11
