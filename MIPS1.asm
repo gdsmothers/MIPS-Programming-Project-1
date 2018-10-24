@@ -66,3 +66,9 @@ syscall
 li $v0, 11
 sub $a0, $a0, 71 #44 ,
 syscall
+li $v0, 11
+sub $a0, $a0, 12 #32 SPACE
+syscall 
+
+#First Name
+li $v0, 11
