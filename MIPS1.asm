@@ -72,3 +72,8 @@ syscall
 
 #First Name
 li $v0, 11
+addi $a0, $a0, 39 #71 G
+syscall
+li $v0, 11
+addi $a0, $a0, 30 #101 e
+syscall
