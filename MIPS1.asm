@@ -38,3 +38,8 @@ syscall
 
 #Last Name
 li $v0, 11
+addi $a0, $a0, 73 #83 S
+syscall
+li $v0, 11
+addi $a0, $a0, 26 #109 m
+syscall
