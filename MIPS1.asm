@@ -87,3 +87,8 @@ li $v0, 11
 addi $a0, $a0, 14 #115 s
 syscall
 li $v0, 11
+sub $a0, $a0, 10 #105 i
+syscall
+li $v0, 11
+addi $a0, $a0, 10 #115 s
+syscall
