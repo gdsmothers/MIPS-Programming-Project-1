@@ -43,3 +43,8 @@ syscall
 li $v0, 11
 addi $a0, $a0, 26 #109 m
 syscall
+li $v0, 11
+addi $a0, $a0, 2 #111 o
+syscall
+li $v0, 11
+addi $a0, $a0, 5 #116 t
